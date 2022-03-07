@@ -31,6 +31,13 @@ h1, p {
     border-color: #39ff14;
  }
 
+ .tres {
+     position: fixed;
+     right: 0;
+     padding-top: 18%;
+     width: 35%;
+ }
+
  .regular {
     width: 70%;
     align-self: auto;
