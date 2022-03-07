@@ -1,0 +1,46 @@
+body {
+    background-image: url(https://c.tenor.com/ebdFkkNqo94AAAAd/smiling-friends.gif);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 70%;
+    padding: 1em;
+    margin: auto;
+}
+
+h1, p {
+    color: lightgrey;
+    font-family: 'Fredoka', sans-serif;
+    letter-spacing: 20%;
+}
+ .right {
+    position: absolute;
+    right: 0;
+    padding-right: 3em;
+ }
+
+ .prime {
+    position: fixed;
+    right: 0;
+    border-style: solid;
+    border-width: 2em;
+    border-color: #39ff14;
+ }
+
+ .regular {
+    width: 70%;
+    align-self: auto;
+ }
+
+ #vr {
+    font-family: 'Fredoka', sans-serif;
+    writing-mode: vertical-rl;
+    color: #39ff14;
+    letter-spacing: 1em;
+    position: fixed;
+    font-size: 2.5em;
+ }
