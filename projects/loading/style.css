@@ -2,7 +2,7 @@ h1 {
     color: red;
 }
 
-#animation-container {
+#loading-container {
     position: absolute;
     width: 20rem;
     height: 20rem;
@@ -12,6 +12,19 @@ h1 {
     animation-name: loading;
     animation-duration: 3s;  
     animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#waiting-container {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation-name: waiting;
+    animation-duration: 3s;  
+    animation-iteration-count: infinite;
     animation-fill-mode: forwards;
 }
 
