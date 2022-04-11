@@ -2,28 +2,24 @@ h1 {
     color: red;
 }
 
-/*
 #animation-container {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-
     width: 20rem;
     height: 20rem;
-  
+    animation-name: loading;
+    animation-duration: 3s;  
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
+
+/*
+left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 */
 
 #bar {
-  width: 100px;
-  height: 100px;
   background: blue;
-  position: relative;
-  animation-name: loading;
-  animation-duration: 3s;  
-  animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
 }
 
 @keyframes loading {
