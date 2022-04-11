@@ -17,20 +17,19 @@ h1 {
     background: blue;
 }
 
-/*
+
+
+@keyframes loading {
+   from {left: 0px; background-color: blue;}
+   to {left: 100px; background-color: red;}
+  }
+  
+ /* 
 #loading {
     background: purple;
 } 
 */
 
-@keyframes loading {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
-  }
-  
-  
 #bar {
     animation-fill-mode: forwards;
     animation-duration: 3s;
