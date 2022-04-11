@@ -21,7 +21,7 @@ h1 {
     height: 20rem;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    /*transform: translate(-50%,-50%);*/
     animation-name: waiting;
     animation-duration: 5s;  
     animation-iteration-count: infinite;
@@ -55,7 +55,7 @@ h1 {
 
 @keyframes waiting {
 from {top: 0px; background-color: darkred;} 
-to {top: 50px; background-color: darkslategray;}
+to {top: 100px; background-color: darkslategray;}
 
 }
 
