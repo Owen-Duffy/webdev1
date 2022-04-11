@@ -17,6 +17,25 @@ h1 {
     background: blue;
 }
 
+/*
 #loading {
     background: purple;
+} 
+*/
+
+@keyframes loading {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+  
+#bar {
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+}
+
+#circle {
+    animation-iteration-count: infinite;
 }
