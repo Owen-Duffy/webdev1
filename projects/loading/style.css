@@ -6,17 +6,14 @@ h1 {
     position: absolute;
     width: 20rem;
     height: 20rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     animation-name: loading;
     animation-duration: 3s;  
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-
-/*
-left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-*/
 
 #bar {
   background: blue;
@@ -41,6 +38,12 @@ left: 50%;
 
 #circle {
     animation-iteration-count: infinite;
+}
+
+@keyframes waiting {
+from {top: 0px; background-color: darkred;} 
+to {top: 50px; background-color: darkslategray;}
+
 }
 
  /* 
