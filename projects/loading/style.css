@@ -18,23 +18,28 @@ h1 {
 }
 
 
-
+#bar {
+    width: 100px;
+  height: 100px;
+  background: blue;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
 @keyframes loading {
    from {left: 0px; background-color: blue;}
    to {left: 100px; background-color: red;}
   }
   
+
+
+#circle {
+    animation-iteration-count: infinite;
+}
+
  /* 
 #loading {
     background: purple;
 } 
 */
-
-#bar {
-    animation-fill-mode: forwards;
-    animation-duration: 3s;
-}
-
-#circle {
-    animation-iteration-count: infinite;
-}
