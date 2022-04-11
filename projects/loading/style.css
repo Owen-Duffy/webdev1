@@ -16,8 +16,9 @@ h1 {
 }
 
 #waiting-container {
-    width: 100px;
+  width: 100px;
   height: 100px;
+  left: 50px;
   background-color: darkred;
   position: relative;
   animation-name: waiting;
@@ -34,16 +35,6 @@ h1 {
     to {left: 100px; background-color: red;}
    }
  
-/*
-#waiting {  
-    background: blue;
-}
-*/
-
-
-
-
-  
 
 
 #circle {
@@ -58,9 +49,3 @@ h1 {
     100% {background-color:darkred; left:0px; top:0px;}
 
 }
-
- /* 
-#loading {
-    background: purple;
-} 
-*/
