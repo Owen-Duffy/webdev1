@@ -16,15 +16,13 @@ h1 {
 }
 
 #waiting-container {
-    position: relative;
-    width: 20rem;
-    height: 20rem;
-    
-    /*transform: translate(-50%,-50%);*/
-    animation-name: waiting;
-    animation-duration: 5s;  
-    animation-iteration-count: infinite;
-    /*animation-fill-mode: forwards;*/
+    width: 100px;
+  height: 100px;
+  background-color: darkred;
+  position: relative;
+  animation-name: waiting;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 #bar {
