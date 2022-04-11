@@ -38,7 +38,7 @@ h1 {
 
 
 #circle {
-    animation-iteration-count: infinite;
+    background-color: darkred;
 }
 
 @keyframes waiting {
