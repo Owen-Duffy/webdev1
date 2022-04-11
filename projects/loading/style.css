@@ -15,12 +15,12 @@ h1 {
 }
 */
 
-div {
+#bar {
   width: 100px;
   height: 100px;
   background: blue;
   position: relative;
-  animation-name: example;
+  animation-name: loading;
   animation-duration: 3s;  
   animation-fill-mode: forwards;
 }
