@@ -2,6 +2,7 @@ h1 {
     color: red;
 }
 
+/*
 #animation-container {
     position: absolute;
     left: 50%;
@@ -12,14 +13,10 @@ h1 {
     height: 20rem;
   
 }
-
-#waiting {  
-    background: blue;
-}
-
+*/
 
 #bar {
-    width: 100px;
+  width: 100px;
   height: 100px;
   background: blue;
   position: relative;
@@ -27,10 +24,21 @@ h1 {
   animation-duration: 3s;  
   animation-fill-mode: forwards;
 }
+
 @keyframes loading {
-   from {left: 0px; background-color: blue;}
-   to {left: 100px; background-color: red;}
-  }
+    from {left: 0px; background-color: blue;}
+    to {left: 100px; background-color: red;}
+   }
+ 
+/*
+#waiting {  
+    background: blue;
+}
+*/
+
+
+
+
   
 
 
