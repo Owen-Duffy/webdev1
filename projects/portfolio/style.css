@@ -7,6 +7,7 @@ h1 {
     text-align: center;
     font-size: 50px;
     color: #334018;
+    font-family: 'Koulen', cursive;
 }
 
 h2 {
@@ -14,6 +15,7 @@ h2 {
     text-align: center;
     font-size: 50px;
     color: blue;
+    font-family: 'Koulen', cursive;
 }
 
 img {
@@ -29,4 +31,6 @@ p {
     text-align: center;
     font-size: 30px;
     color: slategray;
+    font-family: 'Raleway', sans-serif;
 }
+
